@@ -150,19 +150,4 @@ Since I had already cleaned the data using Power Query; Power Pivot created a re
 
 ## Conclusion
 
-As a data enthusiast and former job seeker, I embarked on this Excel-based project to uncover valuable insights about the data science job market. Using a dataset I've curated from real-world job postings, I analyzed job titles, salaries, locations and essential skills. By leveraging Excel features like Power Query, PivotTables, DAX and charts, I discovered key correlations between multiple skills and higher salaries particularly in Azure, Power BI or Tableau and cloud technologies.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+As a data enthusiast and former job seeker I embarked on this Excel-based project to uncover valuable insights about the data science job market. Using a dataset I've curated from real-world job postings I analyzed job titles, salaries and essential skills. By leveraging Excel features like Power Query, PivotTables, DAX and charts I discovered key correlations between multiple skills and higher salaries particularly in Azure, Power BI and other cloud technologies.
