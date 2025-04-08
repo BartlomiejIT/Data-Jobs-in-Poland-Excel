@@ -77,9 +77,10 @@ It includes detailed information on:
 
 - Roles that require fewer skills, like Business Analyst, tend to offer lower salaries, suggesting that more specialized skill sets command higher market value.
 
-![image](https://github.com/user-attachments/assets/83ff8dea-a65f-4905-aa32-8c23225f7909)
+  ![image](https://github.com/user-attachments/assets/41f7c2ae-605e-42c1-bf6a-bc5b282fb2c2)
 
-- This trend emphasizes the value of acquiring multiple relevant skills, particularly for individuals aiming for higher-paying roles.
+
+  - This trend emphasizes the value of acquiring multiple relevant skills, particularly for individuals aiming for higher-paying roles.
 
 ### 2. What are the top skills of data professionals in Poland?
 
@@ -92,7 +93,8 @@ Since I had already cleaned the data using Power Query; Power Pivot created a re
 
     - I created a relationship between my two tables using the ```job_id``` column.
 
-    ![image](https://github.com/user-attachments/assets/3fe4e39f-d775-4bf7-9d5b-90198e2a6bec)
+    ![image](https://github.com/user-attachments/assets/e3d42a07-d466-4dc8-bcf0-d600234917a4)
+
 
 - Power Pivot Menu:
 
@@ -106,9 +108,9 @@ Since I had already cleaned the data using Power Query; Power Pivot created a re
 
 - Emerging technologies like Azure and AWS also show significant presence, underlining the industry's shift towards cloud services and big data technologies.
   
-![image](https://github.com/user-attachments/assets/c51c98d7-37c7-47c1-8cf6-7fa8c748515c)
+  ![image](https://github.com/user-attachments/assets/c51c98d7-37c7-47c1-8cf6-7fa8c748515c)
 
-- Understanding prevalent skills in the industry not only helps professionals stay competitive but also guides training and educational programs to focus on the most impactful technologies.
+  - Understanding prevalent skills in the industry not only helps professionals stay competitive but also guides training and educational programs to focus on the most impactful technologies.
 
 ### 3. What's the pay of the top 10 skills in Poland?
 
@@ -120,19 +122,21 @@ Since I had already cleaned the data using Power Query; Power Pivot created a re
 - I moved the ```job_title_short``` to the rows area and ```salary_year_avg``` into the values area.
 - Then I added new measure to calculate the median salary for Poland jobs.
 
-```
-=CALCULATE(
-    [Median Salary],
-    CROSSFILTER(data_job_salary[job_id], data_job_skills[job_id], Both),
-    data_job_salary[job_country] = "Poland"
-)
-```
+  ```
+  =CALCULATE(
+      [Median Salary],
+      CROSSFILTER(data_job_salary[job_id], data_job_skills[job_id], Both),
+      data_job_salary[job_country] = "Poland"
+  )
+  ```
 
 **DAX**
 
-To calculate the median year salary I used DAX.
+- To calculate the median year salary I used DAX.
 
-```Median Salary := MEDIAN(data_jobs_all[salary_year_avg])```
+  ```
+  Median Salary := MEDIAN(data_jobs_all[salary_year_avg])
+  ```
 
 #### Key Insights:
 
@@ -140,9 +144,9 @@ To calculate the median year salary I used DAX.
 
 - Skills like Excel and SAS have the lowest median salaries and likelihood, indicating less specialization and demand in high-salary sectors.
 
-![image](https://github.com/user-attachments/assets/5383ab03-7d83-4426-9fe9-ecfbdf9ada47)
+  ![image](https://github.com/user-attachments/assets/5383ab03-7d83-4426-9fe9-ecfbdf9ada47)
 
-- This chart highlights the importance of investing time in learning high-value skills like AWS and Power BI which are evidently tied to higher paying roles, especially for those looking to maximize their salary in the tech industry.
+  - This chart highlights the importance of investing time in learning high-value skills like AWS and Power BI which are evidently tied to higher paying roles, especially for those looking to maximize their salary in the tech industry.
 
 ## Conclusion
 
