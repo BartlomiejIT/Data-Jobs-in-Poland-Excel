@@ -24,7 +24,7 @@ The following Excel skills were utilized for analysis:
 
 ## Data Source and Contain
 
-The dataset used for this project contains real-world data science job information from 2023. The dataset is from [hugginface.co]('https://huggingface.co/datasets/lukebarousse/data_jobs')  
+The dataset used for this project contains real-world data science job information from 2023. The dataset is from [hugginface](https://huggingface.co/datasets/lukebarousse/data_jobs).   
 
 It includes detailed information on:
 
