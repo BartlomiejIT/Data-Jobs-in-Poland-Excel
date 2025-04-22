@@ -1,5 +1,23 @@
 # Data Jobs Analysis
 
+## Table of Contents
+
+- [Objective](#objective)  
+- [Key Questions](#key-questions)  
+- [Excel tools](#excel-tools)  
+- [Data Source and Contain](#data-source-and-contain)  
+- [Analysis](#analysis)  
+  - [1. Do more skills get you better pay?](#1-do-more-skills-get-you-better-pay)  
+    - [Power Query (ETL)](#power-query-etl)  
+    - [Key Insights](#key-insights)  
+  - [2. What are the top skills of data professionals in Poland?](#2-what-are-the-top-skills-of-data-professionals-in-poland)  
+    - [Power Pivot](#power-pivot)  
+    - [Key Insights](#key-insights-1)  
+  - [3. What's the pay of the top 10 skills in Poland?](#3-whats-the-pay-of-the-top-10-skills-in-poland)  
+    - [PivotTables & DAX](#pivottables--dax)  
+    - [Key Insights](#key-insights-2)  
+- [Conclusion](#conclusion)
+
 ## Objective
 
 As a former job seeker, I’ve always been surprised by the lack of data exploring the most optimal jobs and skills in the data science market. I set out to understand what skills top employers request and how to land more pay.
